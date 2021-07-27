@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-    package="com.himo.mismascotasfragd">
+    package="com.himo.mismascotasfragbd">
     <uses-permission android:name="android.permission.INTERNET" />
 
     <application
@@ -9,36 +9,36 @@
         android:label="@string/app_name"
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
-        android:theme="@style/Theme.MisMascotasFrag">
+        android:theme="@style/Theme.MisMascotasFragBD">
 
         <activity
-            android:name="com.himo.mismascotasfragd.ContactoActivity"
-            android:parentActivityName="com.himo.mismascotasfragd.MainActivity">
+            android:name="com.himo.mismascotasfragbd.ContactoActivity"
+            android:parentActivityName="com.himo.mismascotasfragbd.MainActivity">
             <!-- - soporte para versiones anteriores de 4.0 -->
             <meta-data
                 android:name="android.support.PARENT_ACTIVITY"
-                android:value="com.himo.mismascotasfragd.MainActivity" />
+                android:value="com.himo.mismascotasfragbd.MainActivity" />
         </activity>
 
         <activity
-            android:name="com.himo.mismascotasfragd.AcercaDeActivity"
-            android:parentActivityName="com.himo.mismascotasfragd.MainActivity">
+            android:name="com.himo.mismascotasfragbd.AcercaDeActivity"
+            android:parentActivityName="com.himo.mismascotasfragbd.MainActivity">
             <!-- - soporte para versiones anteriores de 4.0 -->
             <meta-data
                 android:name="android.support.PARENT_ACTIVITY"
-                android:value="com.himo.mismascotasfragd.MainActivity" />
+                android:value="com.himo.mismascotasfragbd.MainActivity" />
         </activity>
 
         <activity
-            android:name="com.himo.mismascotasfragd.MascotasFavoritasActivity"
-            android:parentActivityName="com.himo.mismascotasfragd.MainActivity">
+            android:name="com.himo.mismascotasfragbd.vista.MascotasFavoritasActivity"
+            android:parentActivityName="com.himo.mismascotasfragbd.MainActivity">
             <!-- - soporte para versiones anteriores de 4.0 -->
             <meta-data
                 android:name="android.support.PARENT_ACTIVITY"
-                android:value="com.himo.mismascotasfragd.MainActivity" />
+                android:value="com.himo.mismascotasfragbd.MainActivity" />
         </activity>
 
-        <activity android:name="com.himo.mismascotasfragd.MainActivity">
+        <activity android:name="com.himo.mismascotasfragbd.MainActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 

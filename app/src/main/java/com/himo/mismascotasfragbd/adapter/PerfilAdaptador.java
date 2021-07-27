@@ -1,4 +1,4 @@
-package com.himo.mismascotasfragd.adapter;
+package com.himo.mismascotasfragbd.adapter;
 
 import android.app.Activity;
 import android.view.LayoutInflater;
@@ -10,8 +10,8 @@ import android.widget.TextView;
 import androidx.annotation.NonNull;
 import androidx.recyclerview.widget.RecyclerView;
 
-import com.himo.mismascotasfragd.pojo.Mascota;
-import com.himo.mismascotasfragd.R;
+import com.himo.mismascotasfragbd.pojo.Mascota;
+import com.himo.mismascotasfragbd.R;
 
 import java.util.ArrayList;
 

@@ -1,8 +1,8 @@
 <!--CÓDIGO GENERADO POR HECTOR IVAN MORALES OVANDO-->
 
 <resources>
-    <string name="app_name">Mis Mascotas Frag D</string>
-    <string name="tarea_name">Mis Mascotas Frag D</string>
+    <string name="app_name">Mis Mascotas Frag BD</string>
+    <string name="tarea_name">Mis Mascotas Frag BD</string>
     <string name="favoritos">5 Favoritos</string>
     <string name="btn_favoritos">5</string>
     <string name="pnombre">nombre</string>
@@ -28,8 +28,8 @@
     <string name="micorreoes">Mi correo es:</string>
     <string name="micorreo">himo123@hotmail.com</string>
     <string name="fecha">Fecha de publicación:</string>
-    <string name="fechapublicacion">Marzo 2021</string>
+    <string name="fechapublicacion">Julio 2021</string>
     <string name="curso">Ahora estoy aprendiendo programación con Android, solo por gusto en la plataforma Coursera:</string>
     <string name="coursera">Desarrollo de Aplicaciones con Android</string>
-    <string name="gustar">Espero que te agrede mi app</string>
+    <string name="gustar">Espero que te agrade mi app</string>
 </resources>

@@ -1,4 +1,4 @@
-package com.himo.mismascotasfragd.pojo;
+package com.himo.mismascotasfragbd.pojo;
 
 import android.os.Parcel;
 import android.os.Parcelable;
@@ -7,6 +7,7 @@ public class Mascota implements Comparable, Parcelable {
 
     //CÓDIGO GENERADO POR HECTOR IVAN MORALES OVANDO
 
+    private int id;
     private String nombre;
     //private String tipo; //perro, gato, loro
     private String raza;
@@ -27,6 +28,10 @@ public class Mascota implements Comparable, Parcelable {
         raza = in.readString();
         foto = in.readInt();
         rating = in.readInt();
+    }
+
+    public Mascota() {
+
     }
 
     @Override
@@ -53,6 +58,10 @@ public class Mascota implements Comparable, Parcelable {
             return new Mascota[size];
         }
     };
+
+    public int getId() { return id; }
+
+    public void setId(int id) { this.id = id; }
 
     public String getNombre() {
         return nombre;

@@ -1,4 +1,4 @@
-package com.himo.mismascotasfragd;
+package com.himo.mismascotasfragbd;
 
 import androidx.appcompat.app.AppCompatActivity;
 import androidx.appcompat.widget.Toolbar;
@@ -8,7 +8,7 @@ import android.view.View;
 import android.widget.Button;
 import android.widget.EditText;
 
-import com.himo.mismascotasfragd.email.SendMail;
+import com.himo.mismascotasfragbd.email.SendMail;
 
     // El código implementado en esta clase para enviar el correo electrónico fue tomado del sitio:
     // https://www.simplifiedcoding.net/android-email-app-using-javamail-api-in-android-studio/

@@ -1,4 +1,4 @@
-package com.himo.mismascotasfragd.email;
+package com.himo.mismascotasfragbd.email;
 
 public class Config {
 

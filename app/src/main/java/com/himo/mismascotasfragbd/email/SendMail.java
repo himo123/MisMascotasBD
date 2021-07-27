@@ -1,4 +1,4 @@
-package com.himo.mismascotasfragd.email;
+package com.himo.mismascotasfragbd.email;
 
 import android.app.ProgressDialog;
 import android.content.Context;
@@ -68,7 +68,7 @@ import javax.mail.internet.MimeMessage;
             propiedades.put("mail.smtp.port", "465");
 
             //Creando una nueva sesión
-            //Authenticating the password
+            //Verificando el password...
             Session sesion = Session.getDefaultInstance(propiedades,
                     new javax.mail.Authenticator() {
                         //Authenticating the password

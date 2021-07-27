@@ -1,4 +1,4 @@
-package com.himo.mismascotasfragd;
+package com.himo.mismascotasfragbd;
 
 import androidx.annotation.NonNull;
 import androidx.appcompat.app.AppCompatActivity;
@@ -13,9 +13,10 @@ import android.view.MenuItem;
 import android.view.View;
 
 import com.google.android.material.tabs.TabLayout;
-import com.himo.mismascotasfragd.adapter.PageAdapter;
-import com.himo.mismascotasfragd.fragment.PerfilFragment;
-import com.himo.mismascotasfragd.fragment.RecyclerViewFragment;
+import com.himo.mismascotasfragbd.adapter.PageAdapter;
+import com.himo.mismascotasfragbd.vista.MascotasFavoritasActivity;
+import com.himo.mismascotasfragbd.vista.PerfilFragment;
+import com.himo.mismascotasfragbd.vista.RecyclerViewFragment;
 
 import java.util.ArrayList;
 import java.util.Objects;

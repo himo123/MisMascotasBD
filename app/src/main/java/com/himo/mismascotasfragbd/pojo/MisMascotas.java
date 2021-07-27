@@ -1,6 +1,6 @@
-package com.himo.mismascotasfragd.pojo;
+package com.himo.mismascotasfragbd.pojo;
 
-import com.himo.mismascotasfragd.R;
+import com.himo.mismascotasfragbd.R;
 import java.util.ArrayList;
 
 public class MisMascotas {

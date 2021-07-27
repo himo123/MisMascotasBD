@@ -1,4 +1,4 @@
-package com.himo.mismascotasfragd.fragment;
+package com.himo.mismascotasfragbd.vista;
 
 import android.os.Bundle;
 import android.view.LayoutInflater;
@@ -12,10 +12,10 @@ import androidx.fragment.app.Fragment;
 import androidx.recyclerview.widget.GridLayoutManager;
 import androidx.recyclerview.widget.RecyclerView;
 
-import com.himo.mismascotasfragd.R;
-import com.himo.mismascotasfragd.adapter.PerfilAdaptador;
-import com.himo.mismascotasfragd.pojo.Mascota;
-import com.himo.mismascotasfragd.pojo.MisMascotas;
+import com.himo.mismascotasfragbd.R;
+import com.himo.mismascotasfragbd.adapter.PerfilAdaptador;
+import com.himo.mismascotasfragbd.pojo.Mascota;
+import com.himo.mismascotasfragbd.pojo.MisMascotas;
 import com.mikhaellopez.circularimageview.CircularImageView;
 
 import java.util.ArrayList;

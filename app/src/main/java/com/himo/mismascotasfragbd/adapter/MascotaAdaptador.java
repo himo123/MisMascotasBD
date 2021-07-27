@@ -1,4 +1,4 @@
-package com.himo.mismascotasfragd.adapter;
+package com.himo.mismascotasfragbd.adapter;
 
 import android.app.Activity;
 import android.view.LayoutInflater;
@@ -11,8 +11,9 @@ import android.widget.TextView;
 import androidx.annotation.NonNull;
 import androidx.recyclerview.widget.RecyclerView;
 
-import com.himo.mismascotasfragd.pojo.Mascota;
-import com.himo.mismascotasfragd.R;
+import com.himo.mismascotasfragbd.db.ConstructorMascotas;
+import com.himo.mismascotasfragbd.pojo.Mascota;
+import com.himo.mismascotasfragbd.R;
 
 import java.util.ArrayList;
 
@@ -72,8 +73,11 @@ public class MascotaAdaptador extends RecyclerView.Adapter<MascotaAdaptador.Masc
 
         holder.btnLike.setOnClickListener(v -> {
             if (holder.btnLike.getVisibility() == View.VISIBLE) {
-                mascota.setRating(mascota.getRating() + 1);
-                holder.tvRatingCV.setText(String.valueOf(mascota.getRating()));
+//                mascota.setRating(mascota.getRating() + 1);
+//                holder.tvRatingCV.setText(String.valueOf(mascota.getRating()));
+                ConstructorMascotas constructorMascotas = new ConstructorMascotas(contexto);
+                constructorMascotas.insertarRatingMascota(mascota);
+                holder.tvRatingCV.setText(String.valueOf(constructorMascotas.obtenerRatingsMascota(mascota)));
             }
         });
     }
